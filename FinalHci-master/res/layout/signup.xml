@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground" >
+	
+     <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signupString"
+        android:width="700dp" 
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+    
+        <Space
+		  android:layout_width="1dp"
+		  android:layout_height="120dp"/>
+    
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        >
+
+        <requestFocus />
+    </EditText>
+    
+        <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:hint="@string/password"
+        android:inputType="textPassword"
+         android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+    
+        <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
+         android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+	
+    	    <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+    
+    
+           <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:text="@string/createacc"
+         />
+    
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground" >
+
+       <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+    
+    <EditText
+        android:id="@+id/editTextUserNameToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="#ffffff"
+        android:ems="10"
+        android:textColor="#ffffff">
+
+        <requestFocus />
+    </EditText>
+    
+    
+       <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:hint="@string/password"
+        android:textColor="#ffffff"  />
+    
+       <Space
+		  android:layout_width="1dp"
+		  android:layout_height="30dp"/>
+    
+    
+           <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:text="@string/signin"
+         />
+
+</LinearLayout>

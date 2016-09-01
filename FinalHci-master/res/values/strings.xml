@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UTB Campus Map Guidance</string>
+    <string name="developers">Display Developers</string>
+    <string name="welcome">UTB Campus Map Guidance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome1">This application gives you information about the path between two buildings in the campus as well as
+        screenshots with the required directions.</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview1">Select your first building</string>
+    <string name="textview2">Select your second building</string>
+    <string name="button1">Submit</string>
+    <string name="saballhsb">SABAL TO LHSB</string>
+    <string name="directions">Directions</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="confirm">Confirm</string>
+    <string name="createacc">Create Account</string>
+    <string name="or">OR</string>
+    <string name="acctut">Create Account Tutorial</string>
+    <string name="goback">Go Back</string>
+    <string name="gotonext">Go to login window</string>
+    
+    <string name="main2Message">Please login if you have an account, otherwise create one by clicking sign up button.</string>
+    <string name="signupString">Please create a new username and password. There are no specific requirements.</string>
+    <string name="info">Testing text Testing text Testing text Testing text Testing text Testing text Testing text Testing text 
+        Testing text Testing text Testing text Testing text Testing text Testing text Testing text Testing text Testing text 
+        Testing text Testing text Testing text Testing text Testing text Testing text Testing text Testing text Testing text </string>
+
+    <string-array name="buildings">
+        <item>LHSB</item>
+        <item>BRHP</item>
+        <item>MAIN</item>
+        <item>SABAL</item>
+    </string-array>
+
+    <string name="title_activity_sabal_to_lhsb">Sabal To Lhsb</string>
+    <string name="title_activity_db">DbActivity</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_initial_window">InitialWindow</string>
+
+</resources>
