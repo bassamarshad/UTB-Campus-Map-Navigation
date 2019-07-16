@@ -14,7 +14,7 @@ While the app is in use - the user recieves sound alerts / image alerts on his s
 #
 This was a group project and several features were identified to be worked on - Image Processing / Computer vision (automated landmark recognition - SIFT etc) . 
 #
-Alerts if the user strays ofcourse etc.
+Alerts if the user strays off course etc.
 #
 Video of the app in action
 #
